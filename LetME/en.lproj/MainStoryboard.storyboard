@@ -157,7 +157,7 @@
                                     <action selector="enteredsearch:" destination="2" eventType="editingDidEndOnExit" id="kOA-e4-wAC"/>
                                 </connections>
                             </textField>
-                            <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Press Return to Generate bit.ly!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7M-mS-gbz">
+                            <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Press Return to Generate Link!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7M-mS-gbz">
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
                                 </accessibility>
@@ -199,10 +199,10 @@
                                     <action selector="messageaLink:" destination="2" eventType="touchUpInside" id="Vvy-Ql-ck5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="LMGTFY.gif" translatesAutoresizingMaskIntoConstraints="NO" id="45f-el-nNu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Googlelogo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="45f-el-nNu">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="190" id="8TK-NX-z4U"/>
-                                    <constraint firstAttribute="height" constant="57" id="WhD-tR-fUR"/>
+                                    <constraint firstAttribute="height" constant="50" id="91O-sx-1Ic"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZZ-KJ-eq3">
@@ -235,18 +235,18 @@
                             <constraint firstItem="SgB-up-Ync" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="94" id="B9v-ss-NMU"/>
                             <constraint firstItem="4iK-2a-rm5" firstAttribute="top" secondItem="g7M-mS-gbz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Eb5-mG-bsV"/>
                             <constraint firstAttribute="trailing" secondItem="GVb-JK-Rh8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Jz9-mf-yot"/>
-                            <constraint firstItem="GVb-JK-Rh8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="196" id="LMo-Lk-SuO"/>
                             <constraint firstItem="skZ-mG-1b1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="13" id="QJa-ro-Rnp"/>
                             <constraint firstItem="GVb-JK-Rh8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Si3-7K-WSG"/>
                             <constraint firstAttribute="trailing" secondItem="4iK-2a-rm5" secondAttribute="trailing" constant="87" id="ULM-qf-0CY"/>
-                            <constraint firstItem="45f-el-nNu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="107" id="Xbp-ac-bMe"/>
                             <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="oZZ-KJ-eq3" secondAttribute="centerX" type="default" id="ZCA-UE-Cm2"/>
                             <constraint firstItem="g7M-mS-gbz" firstAttribute="top" secondItem="GVb-JK-Rh8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="b9q-JH-DM8"/>
                             <constraint firstItem="skZ-mG-1b1" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="10" id="cYM-NW-MY8"/>
                             <constraint firstItem="SgB-up-Ync" firstAttribute="top" secondItem="3" secondAttribute="top" constant="267" id="d7S-lT-r8u"/>
                             <constraint firstAttribute="trailing" secondItem="g7M-mS-gbz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="eY3-Jx-FRj"/>
                             <constraint firstItem="g7M-mS-gbz" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="etV-q8-Vgw"/>
+                            <constraint firstItem="GVb-JK-Rh8" firstAttribute="top" secondItem="45f-el-nNu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="iTG-CP-618"/>
                             <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="GVb-JK-Rh8" secondAttribute="centerX" type="default" id="k0K-6J-FvY"/>
+                            <constraint firstItem="45f-el-nNu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="138" id="zhQ-pS-tUz"/>
                         </constraints>
                     </view>
                     <connections>
@@ -260,7 +260,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LMGTFY.gif" width="381" height="110"/>
+        <image name="Googlelogo1.png" width="817" height="204"/>
         <image name="backicon.png" width="48" height="40"/>
         <image name="infobuttonl.png" width="100" height="100"/>
         <image name="mailicon.png" width="105" height="56"/>
