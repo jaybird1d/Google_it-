@@ -14,8 +14,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>LMGTFYicon_glossy.png</string>
-				<string>LMGTFYicon_glossy copy.png</string>
+				<string>LMGTFYicon_g?57.png</string>
+				<string>LMGTFYicon_g?.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
