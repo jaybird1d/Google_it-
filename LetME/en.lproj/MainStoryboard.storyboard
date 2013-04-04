@@ -167,8 +167,8 @@
                             </label>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgB-up-Ync">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="bGZ-cm-D6Q"/>
-                                    <constraint firstAttribute="height" constant="42" id="cZ7-dh-BGw"/>
+                                    <constraint firstAttribute="width" constant="57" id="2gU-aO-Cbu"/>
+                                    <constraint firstAttribute="height" constant="43" id="YQd-vM-Vlx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="mailicon.png">
@@ -184,8 +184,8 @@
                             </button>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4iK-2a-rm5">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="66" id="Gpj-vQ-G0a"/>
-                                    <constraint firstAttribute="height" constant="53" id="kC4-mY-ysq"/>
+                                    <constraint firstAttribute="height" constant="53" id="dHb-Vt-r1n"/>
+                                    <constraint firstAttribute="width" constant="69" id="tZX-Os-ygn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="messageicon.png">
@@ -199,10 +199,10 @@
                                     <action selector="messageaLink:" destination="2" eventType="touchUpInside" id="Vvy-Ql-ck5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Googlelogo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="45f-el-nNu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Googlelogo4.png" translatesAutoresizingMaskIntoConstraints="NO" id="45f-el-nNu">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="190" id="8TK-NX-z4U"/>
-                                    <constraint firstAttribute="height" constant="50" id="91O-sx-1Ic"/>
+                                    <constraint firstAttribute="width" constant="241" id="EiA-w0-9oO"/>
+                                    <constraint firstAttribute="height" constant="60" id="PN1-7h-aev"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZZ-KJ-eq3">
@@ -231,22 +231,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="GVb-JK-Rh8" firstAttribute="top" secondItem="45f-el-nNu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0hU-99-8Ld"/>
+                            <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="oZZ-KJ-eq3" secondAttribute="centerX" type="default" id="20d-ca-mva"/>
+                            <constraint firstAttribute="trailing" secondItem="4iK-2a-rm5" secondAttribute="trailing" constant="81" id="3xp-HS-qQG"/>
+                            <constraint firstItem="skZ-mG-1b1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="12" id="8NU-l8-yiS"/>
                             <constraint firstItem="oZZ-KJ-eq3" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Af3-3x-2lR"/>
-                            <constraint firstItem="SgB-up-Ync" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="94" id="B9v-ss-NMU"/>
-                            <constraint firstItem="4iK-2a-rm5" firstAttribute="top" secondItem="g7M-mS-gbz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Eb5-mG-bsV"/>
+                            <constraint firstItem="4iK-2a-rm5" firstAttribute="top" secondItem="3" secondAttribute="top" constant="260" id="FSd-fp-g4x"/>
                             <constraint firstAttribute="trailing" secondItem="GVb-JK-Rh8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Jz9-mf-yot"/>
-                            <constraint firstItem="skZ-mG-1b1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="13" id="QJa-ro-Rnp"/>
+                            <constraint firstItem="SgB-up-Ync" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="97" id="O12-cg-FzH"/>
+                            <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="GVb-JK-Rh8" secondAttribute="centerX" type="default" id="QBa-7z-i5j"/>
                             <constraint firstItem="GVb-JK-Rh8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Si3-7K-WSG"/>
-                            <constraint firstAttribute="trailing" secondItem="4iK-2a-rm5" secondAttribute="trailing" constant="87" id="ULM-qf-0CY"/>
-                            <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="oZZ-KJ-eq3" secondAttribute="centerX" type="default" id="ZCA-UE-Cm2"/>
+                            <constraint firstItem="skZ-mG-1b1" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="7" id="TFd-3J-05E"/>
                             <constraint firstItem="g7M-mS-gbz" firstAttribute="top" secondItem="GVb-JK-Rh8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="b9q-JH-DM8"/>
-                            <constraint firstItem="skZ-mG-1b1" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="10" id="cYM-NW-MY8"/>
-                            <constraint firstItem="SgB-up-Ync" firstAttribute="top" secondItem="3" secondAttribute="top" constant="267" id="d7S-lT-r8u"/>
                             <constraint firstAttribute="trailing" secondItem="g7M-mS-gbz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="eY3-Jx-FRj"/>
                             <constraint firstItem="g7M-mS-gbz" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="etV-q8-Vgw"/>
-                            <constraint firstItem="GVb-JK-Rh8" firstAttribute="top" secondItem="45f-el-nNu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="iTG-CP-618"/>
-                            <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="GVb-JK-Rh8" secondAttribute="centerX" type="default" id="k0K-6J-FvY"/>
-                            <constraint firstItem="45f-el-nNu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="138" id="zhQ-pS-tUz"/>
+                            <constraint firstItem="45f-el-nNu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="128" id="sUf-yB-9pL"/>
+                            <constraint firstItem="SgB-up-Ync" firstAttribute="top" secondItem="3" secondAttribute="top" constant="264" id="tif-O8-mIn"/>
                         </constraints>
                     </view>
                     <connections>
@@ -260,7 +260,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Googlelogo1.png" width="817" height="204"/>
+        <image name="Googlelogo4.png" width="817" height="204"/>
         <image name="backicon.png" width="48" height="40"/>
         <image name="infobuttonl.png" width="100" height="100"/>
         <image name="mailicon.png" width="105" height="56"/>

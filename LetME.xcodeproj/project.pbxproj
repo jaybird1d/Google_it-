@@ -38,6 +38,9 @@
 		5A9FB9CA170A74ED00F9FD2E /* infobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9C7170A74EC00F9FD2E /* infobutton.png */; };
 		5A9FB9CC170DF2F800F9FD2E /* Googlelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9CB170DF2F800F9FD2E /* Googlelogo.png */; };
 		5A9FB9CE170DF37000F9FD2E /* Googlelogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9CD170DF37000F9FD2E /* Googlelogo1.png */; };
+		5A9FB9D0170E0CED00F9FD2E /* Googlelogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */; };
+		5A9FB9D2170E0D4100F9FD2E /* Googlelogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */; };
+		5A9FB9D4170E0DAB00F9FD2E /* Googlelogo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */; };
 		6C446E7616B49C2600D9B1A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C446E7516B49C2600D9B1A7 /* UIKit.framework */; };
 		6C446E7816B49C2600D9B1A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C446E7716B49C2600D9B1A7 /* Foundation.framework */; };
 		6C446E7A16B49C2600D9B1A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C446E7916B49C2600D9B1A7 /* CoreGraphics.framework */; };
@@ -99,6 +102,9 @@
 		5A9FB9C7170A74EC00F9FD2E /* infobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infobutton.png; sourceTree = "<group>"; };
 		5A9FB9CB170DF2F800F9FD2E /* Googlelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo.png; sourceTree = "<group>"; };
 		5A9FB9CD170DF37000F9FD2E /* Googlelogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo1.png; sourceTree = "<group>"; };
+		5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo2.png; sourceTree = "<group>"; };
+		5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo3.png; sourceTree = "<group>"; };
+		5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo4.png; sourceTree = "<group>"; };
 		6C446E7116B49C2600D9B1A7 /* LetME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C446E7516B49C2600D9B1A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C446E7716B49C2600D9B1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,6 +200,9 @@
 		6C446E7C16B49C2700D9B1A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */,
+				5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */,
+				5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */,
 				5A9FB9CD170DF37000F9FD2E /* Googlelogo1.png */,
 				5A9FB9CB170DF2F800F9FD2E /* Googlelogo.png */,
 				22A14D2F170DE5E30070AB3A /* infobuttonl.png */,
@@ -321,6 +330,9 @@
 				22A14D38170DF0F90070AB3A /* LMGTFYicon_g?57.png in Resources */,
 				5A9FB9CC170DF2F800F9FD2E /* Googlelogo.png in Resources */,
 				5A9FB9CE170DF37000F9FD2E /* Googlelogo1.png in Resources */,
+				5A9FB9D0170E0CED00F9FD2E /* Googlelogo2.png in Resources */,
+				5A9FB9D2170E0D4100F9FD2E /* Googlelogo3.png in Resources */,
+				5A9FB9D4170E0DAB00F9FD2E /* Googlelogo4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
