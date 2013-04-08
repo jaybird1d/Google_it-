@@ -270,10 +270,6 @@
         <class className="LMGViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LMGViewController.h"/>
             <relationships>
-                <relationship kind="action" name="editingDidStart:"/>
-                <relationship kind="action" name="emailaLink:"/>
-                <relationship kind="action" name="enteredsearch:"/>
-                <relationship kind="action" name="messageaLink:"/>
                 <relationship kind="outlet" name="basicURL" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="feedbackMsg" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="searchentry" candidateClass="UITextField"/>
