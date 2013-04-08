@@ -52,8 +52,6 @@
 		6C446E8216B49C2700D9B1A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C446E8116B49C2700D9B1A7 /* main.m */; };
 		6C446E8616B49C2700D9B1A7 /* LMGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C446E8516B49C2700D9B1A7 /* LMGAppDelegate.m */; };
 		6C446E8816B49C2700D9B1A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8716B49C2700D9B1A7 /* Default.png */; };
-		6C446E8A16B49C2700D9B1A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8916B49C2700D9B1A7 /* Default@2x.png */; };
-		6C446E8C16B49C2700D9B1A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8B16B49C2700D9B1A7 /* Default-568h@2x.png */; };
 		6C446E8F16B49C2700D9B1A7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8D16B49C2700D9B1A7 /* MainStoryboard.storyboard */; };
 		6C446E9216B49C2700D9B1A7 /* LMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C446E9116B49C2700D9B1A7 /* LMGViewController.m */; };
 		6C63905316BDFDCA005B3DA8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C63905216BDFDCA005B3DA8 /* MessageUI.framework */; };
@@ -124,8 +122,6 @@
 		6C446E8416B49C2700D9B1A7 /* LMGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMGAppDelegate.h; sourceTree = "<group>"; };
 		6C446E8516B49C2700D9B1A7 /* LMGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMGAppDelegate.m; sourceTree = "<group>"; };
 		6C446E8716B49C2700D9B1A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		6C446E8916B49C2700D9B1A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		6C446E8B16B49C2700D9B1A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6C446E8E16B49C2700D9B1A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6C446E9016B49C2700D9B1A7 /* LMGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMGViewController.h; sourceTree = "<group>"; };
 		6C446E9116B49C2700D9B1A7 /* LMGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMGViewController.m; sourceTree = "<group>"; };
@@ -261,8 +257,6 @@
 				6C446E8116B49C2700D9B1A7 /* main.m */,
 				6C446E8316B49C2700D9B1A7 /* Google It?-Prefix.pch */,
 				6C446E8716B49C2700D9B1A7 /* Default.png */,
-				6C446E8916B49C2700D9B1A7 /* Default@2x.png */,
-				6C446E8B16B49C2700D9B1A7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -321,8 +315,6 @@
 			files = (
 				6C446E8016B49C2700D9B1A7 /* InfoPlist.strings in Resources */,
 				6C446E8816B49C2700D9B1A7 /* Default.png in Resources */,
-				6C446E8A16B49C2700D9B1A7 /* Default@2x.png in Resources */,
-				6C446E8C16B49C2700D9B1A7 /* Default-568h@2x.png in Resources */,
 				6C446E8F16B49C2700D9B1A7 /* MainStoryboard.storyboard in Resources */,
 				5A19971D16FAC7E4008D27B4 /* MP900313963.JPG in Resources */,
 				5A19971F16FAC8B9008D27B4 /* LMGTFY.gif in Resources */,
