@@ -156,7 +156,6 @@
 		6C446E6616B49C2600D9B1A7 = {
 			isa = PBXGroup;
 			children = (
-				2256EE22171268260068C092 /* iAd.framework */,
 				5A9FB9DB1712613B00F9FD2E /* Default-568h@2x.png */,
 				5A9FB9D91712613700F9FD2E /* Default@2x.png */,
 				22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */,
@@ -181,6 +180,7 @@
 		6C446E7416B49C2600D9B1A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2256EE22171268260068C092 /* iAd.framework */,
 				220EAC3016BB823E0090A810 /* CoreData.framework */,
 				6C446E7516B49C2600D9B1A7 /* UIKit.framework */,
 				6C446E7716B49C2600D9B1A7 /* Foundation.framework */,
