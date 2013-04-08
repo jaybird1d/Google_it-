@@ -27,6 +27,21 @@ NSString *finalLink;
 @synthesize searchentry = _searchentry;
 @synthesize basicURL    = _basicURL;
 @synthesize feedbackMsg = _feedbackMsg;
+@synthesize bottomAd = _bottomAd;
+@synthesize bannerIsVisible = _bannerIsVisible;
+
+- (void)viewDidLoad {
+    _bottomAd = [[ADBannerView alloc] initWithFrame:CGRectZero];
+    _bottomAd.frame = CGRectOffset(_bottomAd.frame, 0, -50);
+    _bottomAd.requiredContentSizeIdentifiers = [NSSet setWithObject:ADBannerContentSizeIdentifier320x50];
+    
+    _bottomAd.currentContentSizeIdentifier = ADBannerContentSizeIdentifier320x50;
+    [self.view addSubview:_bottomAd];
+    _bottomAd.delegate=self;
+    self.bannerIsVisible=NO;
+    [super viewDidLoad];
+}
+
 
 -(void)hidekeyboard
 {

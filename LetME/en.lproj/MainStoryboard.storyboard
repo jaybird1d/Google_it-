@@ -223,6 +223,11 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</s
                                     <segue destination="NZi-kf-N5B" kind="modal" id="Ukb-KP-9ep"/>
                                 </connections>
                             </button>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Aij-9N-qIP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ij0-pa-vQ0"/>
+                                </constraints>
+                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -231,7 +236,9 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</s
                             <constraint firstAttribute="trailing" secondItem="4iK-2a-rm5" secondAttribute="trailing" constant="81" id="3xp-HS-qQG"/>
                             <constraint firstItem="skZ-mG-1b1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="12" id="8NU-l8-yiS"/>
                             <constraint firstItem="oZZ-KJ-eq3" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Af3-3x-2lR"/>
+                            <constraint firstItem="Aij-9N-qIP" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="DAY-Xy-Lfy"/>
                             <constraint firstItem="4iK-2a-rm5" firstAttribute="top" secondItem="3" secondAttribute="top" constant="260" id="FSd-fp-g4x"/>
+                            <constraint firstItem="Aij-9N-qIP" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="IED-8a-ffL"/>
                             <constraint firstAttribute="trailing" secondItem="GVb-JK-Rh8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Jz9-mf-yot"/>
                             <constraint firstItem="SgB-up-Ync" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="97" id="O12-cg-FzH"/>
                             <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="GVb-JK-Rh8" secondAttribute="centerX" type="default" id="QBa-7z-i5j"/>
@@ -242,10 +249,12 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</s
                             <constraint firstItem="g7M-mS-gbz" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="etV-q8-Vgw"/>
                             <constraint firstItem="45f-el-nNu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="128" id="sUf-yB-9pL"/>
                             <constraint firstItem="SgB-up-Ync" firstAttribute="top" secondItem="3" secondAttribute="top" constant="264" id="tif-O8-mIn"/>
+                            <constraint firstItem="Aij-9N-qIP" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="wCQ-Vj-Sb8"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="basicURL" destination="oZZ-KJ-eq3" id="gfz-q2-QgD"/>
+                        <outlet property="bottomAd" destination="Aij-9N-qIP" id="mii-ks-Ud8"/>
                         <outlet property="searchentry" destination="GVb-JK-Rh8" id="dD1-ut-7SY"/>
                         <outlet property="tinyurlOutput" destination="g7M-mS-gbz" id="mrx-mf-47V"/>
                     </connections>
@@ -270,6 +279,7 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</s
                 <relationship kind="action" name="enteredsearch:"/>
                 <relationship kind="action" name="messageaLink:"/>
                 <relationship kind="outlet" name="basicURL" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="bottomAd" candidateClass="ADBannerView"/>
                 <relationship kind="outlet" name="feedbackMsg" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="searchentry" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="tinyurlOutput" candidateClass="UILabel"/>

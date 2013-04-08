@@ -20,6 +20,7 @@
 		220EAC7C16BB86EA0090A810 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC7216BB86EA0090A810 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		220EAC7F16BB870E0090A810 /* ILBitly.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC7E16BB870E0090A810 /* ILBitly.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		220EAC8216BB872D0090A810 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC8116BB872D0090A810 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2256EE23171268260068C092 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2256EE22171268260068C092 /* iAd.framework */; };
 		22A14D30170DE5E30070AB3A /* infobuttonl.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D2F170DE5E30070AB3A /* infobuttonl.png */; };
 		22A14D36170DF0B90070AB3A /* LMGTFYicon_g?.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D35170DF0B90070AB3A /* LMGTFYicon_g?.png */; };
 		22A14D38170DF0F90070AB3A /* LMGTFYicon_g?57.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */; };
@@ -84,6 +85,7 @@
 		220EAC7E16BB870E0090A810 /* ILBitly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILBitly.m; sourceTree = "<group>"; };
 		220EAC8016BB872D0090A810 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		220EAC8116BB872D0090A810 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2256EE22171268260068C092 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		22A14D2F170DE5E30070AB3A /* infobuttonl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infobuttonl.png; sourceTree = "<group>"; };
 		22A14D35170DF0B90070AB3A /* LMGTFYicon_g?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LMGTFYicon_g?.png"; sourceTree = "<group>"; };
 		22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LMGTFYicon_g?57.png"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2256EE23171268260068C092 /* iAd.framework in Frameworks */,
 				6C63905316BDFDCA005B3DA8 /* MessageUI.framework in Frameworks */,
 				220EAC3116BB823E0090A810 /* CoreData.framework in Frameworks */,
 				6C446E7616B49C2600D9B1A7 /* UIKit.framework in Frameworks */,
@@ -153,6 +156,7 @@
 		6C446E6616B49C2600D9B1A7 = {
 			isa = PBXGroup;
 			children = (
+				2256EE22171268260068C092 /* iAd.framework */,
 				5A9FB9DB1712613B00F9FD2E /* Default-568h@2x.png */,
 				5A9FB9D91712613700F9FD2E /* Default@2x.png */,
 				22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */,
