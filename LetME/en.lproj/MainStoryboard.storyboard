@@ -17,9 +17,9 @@
                                     <constraint firstAttribute="width" constant="226" id="1fj-hX-R9c"/>
                                     <constraint firstAttribute="height" constant="403" id="KzF-wb-v5B"/>
                                 </constraints>
-                                <mutableString key="text">This app is not affiliated with Google or LMGTFY.com, but we thank them for their services. Additionally, we have used code from Infinite Loop created by Claus Broch to generate the bit.ly links for the app. We thank him and bit.ly for their services. A list of additional sources can be found on our credits page below.
+                                <string key="text">This app is not affiliated with Google or LMGTFY.com, but we thank them for their services. Additionally, we have used code from Infinite Loop created by Claus Broch to generate the bit.ly links for the app. We thank him and bit.ly for their services. A list of additional sources can be found on our credits page below.
 The LMGTFY logo was created using this Google text generator (http://neswork.com/logo-generator/google-font).
-The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</mutableString>
+The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -63,16 +63,16 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</m
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please contact us at " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="226" translatesAutoresizingMaskIntoConstraints="NO" id="eIK-6H-xni">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please contact us at RGBdeveloperAD@gmail.com with any questions!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="239" translatesAutoresizingMaskIntoConstraints="NO" id="eIK-6H-xni">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="226" id="ex9-tw-5DG"/>
-                                    <constraint firstAttribute="width" constant="226" id="oQF-ud-hl0"/>
+                                    <constraint firstAttribute="width" constant="239" id="hJH-ki-w8O"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please leave a review in the App store!" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="226" translatesAutoresizingMaskIntoConstraints="NO" id="LMv-m5-RwB">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please leave a review in the App store!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="239" translatesAutoresizingMaskIntoConstraints="NO" id="LMv-m5-RwB">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="226" id="R3N-jp-oH1"/>
                                 </constraints>
@@ -117,15 +117,15 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</m
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LMv-m5-RwB" firstAttribute="trailing" secondItem="eIK-6H-xni" secondAttribute="trailing" type="default" id="AGe-Vp-Ash"/>
+                            <constraint firstItem="LMv-m5-RwB" firstAttribute="centerX" secondItem="hEt-cD-Jvl" secondAttribute="centerX" type="default" id="3T2-Ex-9M2"/>
                             <constraint firstAttribute="bottom" secondItem="hEt-cD-Jvl" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="BGE-Cf-YCf"/>
-                            <constraint firstItem="LMv-m5-RwB" firstAttribute="centerX" secondItem="hEt-cD-Jvl" secondAttribute="centerX" type="default" id="Ec8-x8-GiA"/>
                             <constraint firstItem="l71-OT-stB" firstAttribute="top" secondItem="Qre-u5-bnR" secondAttribute="top" constant="5" id="Rhm-LB-GMd"/>
+                            <constraint firstItem="LMv-m5-RwB" firstAttribute="leading" secondItem="eIK-6H-xni" secondAttribute="leading" type="default" id="VAP-O8-Q5s"/>
+                            <constraint firstItem="LMv-m5-RwB" firstAttribute="trailing" secondItem="eIK-6H-xni" secondAttribute="trailing" type="default" id="dbM-Wt-pTl"/>
                             <constraint firstItem="eIK-6H-xni" firstAttribute="top" secondItem="Qre-u5-bnR" secondAttribute="top" constant="83" id="fTX-kE-kKy"/>
-                            <constraint firstItem="eIK-6H-xni" firstAttribute="centerX" secondItem="Qre-u5-bnR" secondAttribute="centerX" type="default" id="gPr-Jj-dEM"/>
                             <constraint firstItem="LMv-m5-RwB" firstAttribute="top" secondItem="Qre-u5-bnR" secondAttribute="top" constant="213" id="mOH-lS-L8j"/>
                             <constraint firstItem="l71-OT-stB" firstAttribute="leading" secondItem="Qre-u5-bnR" secondAttribute="leading" constant="10" id="oiJ-e7-fXa"/>
-                            <constraint firstItem="LMv-m5-RwB" firstAttribute="leading" secondItem="eIK-6H-xni" secondAttribute="leading" type="default" id="pso-CA-xxY"/>
+                            <constraint firstItem="LMv-m5-RwB" firstAttribute="centerX" secondItem="Qre-u5-bnR" secondAttribute="centerX" type="default" id="xfJ-N3-moi"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -258,20 +258,6 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</m
         <image name="mailicon.png" width="105" height="56"/>
         <image name="messageicon.png" width="92" height="72"/>
     </resources>
-    <classes>
-        <class className="LMGViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LMGViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="basicURL" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="feedbackMsg" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="searchentry" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="tinyurlOutput" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

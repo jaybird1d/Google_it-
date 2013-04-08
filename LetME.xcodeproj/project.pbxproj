@@ -41,6 +41,10 @@
 		5A9FB9D0170E0CED00F9FD2E /* Googlelogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */; };
 		5A9FB9D2170E0D4100F9FD2E /* Googlelogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */; };
 		5A9FB9D4170E0DAB00F9FD2E /* Googlelogo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */; };
+		5A9FB9D7171260F700F9FD2E /* LoadScreen4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9D5171260F700F9FD2E /* LoadScreen4.png */; };
+		5A9FB9D8171260F700F9FD2E /* LoadScreen5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9D6171260F700F9FD2E /* LoadScreen5.png */; };
+		5A9FB9DA1712613700F9FD2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9D91712613700F9FD2E /* Default@2x.png */; };
+		5A9FB9DC1712613B00F9FD2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9DB1712613B00F9FD2E /* Default-568h@2x.png */; };
 		6C446E7616B49C2600D9B1A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C446E7516B49C2600D9B1A7 /* UIKit.framework */; };
 		6C446E7816B49C2600D9B1A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C446E7716B49C2600D9B1A7 /* Foundation.framework */; };
 		6C446E7A16B49C2600D9B1A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C446E7916B49C2600D9B1A7 /* CoreGraphics.framework */; };
@@ -105,6 +109,10 @@
 		5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo2.png; sourceTree = "<group>"; };
 		5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo3.png; sourceTree = "<group>"; };
 		5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo4.png; sourceTree = "<group>"; };
+		5A9FB9D5171260F700F9FD2E /* LoadScreen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadScreen4.png; sourceTree = "<group>"; };
+		5A9FB9D6171260F700F9FD2E /* LoadScreen5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadScreen5.png; sourceTree = "<group>"; };
+		5A9FB9D91712613700F9FD2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5A9FB9DB1712613B00F9FD2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6C446E7116B49C2600D9B1A7 /* LetME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C446E7516B49C2600D9B1A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C446E7716B49C2600D9B1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -149,6 +157,8 @@
 		6C446E6616B49C2600D9B1A7 = {
 			isa = PBXGroup;
 			children = (
+				5A9FB9DB1712613B00F9FD2E /* Default-568h@2x.png */,
+				5A9FB9D91712613700F9FD2E /* Default@2x.png */,
 				22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */,
 				22A14D35170DF0B90070AB3A /* LMGTFYicon_g?.png */,
 				5A19972C16FB7E93008D27B4 /* LMGTFYicon_glossy copy.png */,
@@ -200,6 +210,8 @@
 		6C446E7C16B49C2700D9B1A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A9FB9D5171260F700F9FD2E /* LoadScreen4.png */,
+				5A9FB9D6171260F700F9FD2E /* LoadScreen5.png */,
 				5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */,
 				5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */,
 				5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */,
@@ -333,6 +345,10 @@
 				5A9FB9D0170E0CED00F9FD2E /* Googlelogo2.png in Resources */,
 				5A9FB9D2170E0D4100F9FD2E /* Googlelogo3.png in Resources */,
 				5A9FB9D4170E0DAB00F9FD2E /* Googlelogo4.png in Resources */,
+				5A9FB9D7171260F700F9FD2E /* LoadScreen4.png in Resources */,
+				5A9FB9D8171260F700F9FD2E /* LoadScreen5.png in Resources */,
+				5A9FB9DA1712613700F9FD2E /* Default@2x.png in Resources */,
+				5A9FB9DC1712613B00F9FD2E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
