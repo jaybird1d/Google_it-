@@ -27,9 +27,7 @@
 		5A19971F16FAC8B9008D27B4 /* LMGTFY.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5A19971E16FAC8B9008D27B4 /* LMGTFY.gif */; };
 		5A19972116FB7C6A008D27B4 /* LMGTFY icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A19972016FB7C6A008D27B4 /* LMGTFY icon.png */; };
 		5A19972516FB7DEE008D27B4 /* LMGTFYicon_glossy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A19972416FB7DEE008D27B4 /* LMGTFYicon_glossy.png */; };
-		5A19972716FB7E0E008D27B4 /* LMGTFYicon_glossy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A19972616FB7E0E008D27B4 /* LMGTFYicon_glossy.png */; };
 		5A19972B16FB7E83008D27B4 /* LMGTFYicon_glossy copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A19972A16FB7E83008D27B4 /* LMGTFYicon_glossy copy.png */; };
-		5A19972D16FB7E93008D27B4 /* LMGTFYicon_glossy copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A19972C16FB7E93008D27B4 /* LMGTFYicon_glossy copy.png */; };
 		5A9FB9C11706916900F9FD2E /* mailicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9BF1706916900F9FD2E /* mailicon.png */; };
 		5A9FB9C21706916900F9FD2E /* messageicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9C01706916900F9FD2E /* messageicon.png */; };
 		5A9FB9C41708F9C600F9FD2E /* backicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9FB9C31708F9C600F9FD2E /* backicon.png */; };
@@ -52,8 +50,6 @@
 		6C446E8216B49C2700D9B1A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C446E8116B49C2700D9B1A7 /* main.m */; };
 		6C446E8616B49C2700D9B1A7 /* LMGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C446E8516B49C2700D9B1A7 /* LMGAppDelegate.m */; };
 		6C446E8816B49C2700D9B1A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8716B49C2700D9B1A7 /* Default.png */; };
-		6C446E8A16B49C2700D9B1A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8916B49C2700D9B1A7 /* Default@2x.png */; };
-		6C446E8C16B49C2700D9B1A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8B16B49C2700D9B1A7 /* Default-568h@2x.png */; };
 		6C446E8F16B49C2700D9B1A7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8D16B49C2700D9B1A7 /* MainStoryboard.storyboard */; };
 		6C446E9216B49C2700D9B1A7 /* LMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C446E9116B49C2700D9B1A7 /* LMGViewController.m */; };
 		6C63905316BDFDCA005B3DA8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C63905216BDFDCA005B3DA8 /* MessageUI.framework */; };
@@ -113,7 +109,7 @@
 		5A9FB9D6171260F700F9FD2E /* LoadScreen5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadScreen5.png; sourceTree = "<group>"; };
 		5A9FB9D91712613700F9FD2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5A9FB9DB1712613B00F9FD2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6C446E7116B49C2600D9B1A7 /* LetME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C446E7116B49C2600D9B1A7 /* Google it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C446E7516B49C2600D9B1A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C446E7716B49C2600D9B1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C446E7916B49C2600D9B1A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -173,7 +169,7 @@
 		6C446E7216B49C2600D9B1A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C446E7116B49C2600D9B1A7 /* LetME.app */,
+				6C446E7116B49C2600D9B1A7 /* Google it.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,7 +280,7 @@
 			);
 			name = LetME;
 			productName = LetME;
-			productReference = 6C446E7116B49C2600D9B1A7 /* LetME.app */;
+			productReference = 6C446E7116B49C2600D9B1A7 /* Google it.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -321,16 +317,12 @@
 			files = (
 				6C446E8016B49C2700D9B1A7 /* InfoPlist.strings in Resources */,
 				6C446E8816B49C2700D9B1A7 /* Default.png in Resources */,
-				6C446E8A16B49C2700D9B1A7 /* Default@2x.png in Resources */,
-				6C446E8C16B49C2700D9B1A7 /* Default-568h@2x.png in Resources */,
 				6C446E8F16B49C2700D9B1A7 /* MainStoryboard.storyboard in Resources */,
 				5A19971D16FAC7E4008D27B4 /* MP900313963.JPG in Resources */,
 				5A19971F16FAC8B9008D27B4 /* LMGTFY.gif in Resources */,
 				5A19972116FB7C6A008D27B4 /* LMGTFY icon.png in Resources */,
 				5A19972516FB7DEE008D27B4 /* LMGTFYicon_glossy.png in Resources */,
-				5A19972716FB7E0E008D27B4 /* LMGTFYicon_glossy.png in Resources */,
 				5A19972B16FB7E83008D27B4 /* LMGTFYicon_glossy copy.png in Resources */,
-				5A19972D16FB7E93008D27B4 /* LMGTFYicon_glossy copy.png in Resources */,
 				5A9FB9C11706916900F9FD2E /* mailicon.png in Resources */,
 				5A9FB9C21706916900F9FD2E /* messageicon.png in Resources */,
 				5A9FB9C41708F9C600F9FD2E /* backicon.png in Resources */,
@@ -459,7 +451,7 @@
 				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
 				INFOPLIST_FILE = "LetME/LetME-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Google it";
 				PROVISIONING_PROFILE = "1A64F2A8-7D40-44D9-AB49-F0EA2BFF1D97";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -475,7 +467,7 @@
 				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
 				INFOPLIST_FILE = "LetME/LetME-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Google it";
 				PROVISIONING_PROFILE = "1A64F2A8-7D40-44D9-AB49-F0EA2BFF1D97";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
