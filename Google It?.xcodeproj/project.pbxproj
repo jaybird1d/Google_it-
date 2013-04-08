@@ -20,6 +20,10 @@
 		220EAC7C16BB86EA0090A810 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC7216BB86EA0090A810 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		220EAC7F16BB870E0090A810 /* ILBitly.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC7E16BB870E0090A810 /* ILBitly.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		220EAC8216BB872D0090A810 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC8116BB872D0090A810 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2223AC4D17125CE60007A941 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2223AC4C17125CE60007A941 /* Default-568h@2x.png */; };
+		2223AC4F17125D8F0007A941 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2223AC4E17125D8F0007A941 /* Default@2x.png */; };
+		2223AC5217125DCE0007A941 /* LoadScreen4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2223AC5017125DCE0007A941 /* LoadScreen4.png */; };
+		2223AC5317125DCE0007A941 /* LoadScreen5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2223AC5117125DCE0007A941 /* LoadScreen5.png */; };
 		22A14D30170DE5E30070AB3A /* infobuttonl.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D2F170DE5E30070AB3A /* infobuttonl.png */; };
 		22A14D36170DF0B90070AB3A /* LMGTFYicon_g?.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D35170DF0B90070AB3A /* LMGTFYicon_g?.png */; };
 		22A14D38170DF0F90070AB3A /* LMGTFYicon_g?57.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */; };
@@ -84,6 +88,10 @@
 		220EAC7E16BB870E0090A810 /* ILBitly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILBitly.m; sourceTree = "<group>"; };
 		220EAC8016BB872D0090A810 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		220EAC8116BB872D0090A810 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2223AC4C17125CE60007A941 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2223AC4E17125D8F0007A941 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2223AC5017125DCE0007A941 /* LoadScreen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadScreen4.png; sourceTree = "<group>"; };
+		2223AC5117125DCE0007A941 /* LoadScreen5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadScreen5.png; sourceTree = "<group>"; };
 		22A14D2F170DE5E30070AB3A /* infobuttonl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infobuttonl.png; sourceTree = "<group>"; };
 		22A14D35170DF0B90070AB3A /* LMGTFYicon_g?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LMGTFYicon_g?.png"; sourceTree = "<group>"; };
 		22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LMGTFYicon_g?57.png"; sourceTree = "<group>"; };
@@ -105,14 +113,14 @@
 		5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo2.png; sourceTree = "<group>"; };
 		5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo3.png; sourceTree = "<group>"; };
 		5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Googlelogo4.png; sourceTree = "<group>"; };
-		6C446E7116B49C2600D9B1A7 /* LetME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C446E7116B49C2600D9B1A7 /* Google It?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google It?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C446E7516B49C2600D9B1A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C446E7716B49C2600D9B1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C446E7916B49C2600D9B1A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6C446E7D16B49C2700D9B1A7 /* LetME-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetME-Info.plist"; sourceTree = "<group>"; };
+		6C446E7D16B49C2700D9B1A7 /* Google It?-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Google It?-Info.plist"; sourceTree = "<group>"; };
 		6C446E7F16B49C2700D9B1A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6C446E8116B49C2700D9B1A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C446E8316B49C2700D9B1A7 /* LetME-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetME-Prefix.pch"; sourceTree = "<group>"; };
+		6C446E8316B49C2700D9B1A7 /* Google It?-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Google It?-Prefix.pch"; sourceTree = "<group>"; };
 		6C446E8416B49C2700D9B1A7 /* LMGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMGAppDelegate.h; sourceTree = "<group>"; };
 		6C446E8516B49C2700D9B1A7 /* LMGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMGAppDelegate.m; sourceTree = "<group>"; };
 		6C446E8716B49C2700D9B1A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -149,6 +157,8 @@
 		6C446E6616B49C2600D9B1A7 = {
 			isa = PBXGroup;
 			children = (
+				2223AC4E17125D8F0007A941 /* Default@2x.png */,
+				2223AC4C17125CE60007A941 /* Default-568h@2x.png */,
 				22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */,
 				22A14D35170DF0B90070AB3A /* LMGTFYicon_g?.png */,
 				5A19972C16FB7E93008D27B4 /* LMGTFYicon_glossy copy.png */,
@@ -163,7 +173,7 @@
 		6C446E7216B49C2600D9B1A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C446E7116B49C2600D9B1A7 /* LetME.app */,
+				6C446E7116B49C2600D9B1A7 /* Google It?.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,6 +210,8 @@
 		6C446E7C16B49C2700D9B1A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2223AC5017125DCE0007A941 /* LoadScreen4.png */,
+				2223AC5117125DCE0007A941 /* LoadScreen5.png */,
 				5A9FB9D3170E0DAB00F9FD2E /* Googlelogo4.png */,
 				5A9FB9D1170E0D4100F9FD2E /* Googlelogo3.png */,
 				5A9FB9CF170E0CED00F9FD2E /* Googlelogo2.png */,
@@ -244,10 +256,10 @@
 				220EAC7016BB86EA0090A810 /* AFXMLRequestOperation.m */,
 				220EAC7116BB86EA0090A810 /* UIImageView+AFNetworking.h */,
 				220EAC7216BB86EA0090A810 /* UIImageView+AFNetworking.m */,
-				6C446E7D16B49C2700D9B1A7 /* LetME-Info.plist */,
+				6C446E7D16B49C2700D9B1A7 /* Google It?-Info.plist */,
 				6C446E7E16B49C2700D9B1A7 /* InfoPlist.strings */,
 				6C446E8116B49C2700D9B1A7 /* main.m */,
-				6C446E8316B49C2700D9B1A7 /* LetME-Prefix.pch */,
+				6C446E8316B49C2700D9B1A7 /* Google It?-Prefix.pch */,
 				6C446E8716B49C2700D9B1A7 /* Default.png */,
 				6C446E8916B49C2700D9B1A7 /* Default@2x.png */,
 				6C446E8B16B49C2700D9B1A7 /* Default-568h@2x.png */,
@@ -258,9 +270,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C446E7016B49C2600D9B1A7 /* LetME */ = {
+		6C446E7016B49C2600D9B1A7 /* Google It? */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "LetME" */;
+			buildConfigurationList = 6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "Google It?" */;
 			buildPhases = (
 				6C446E6D16B49C2600D9B1A7 /* Sources */,
 				6C446E6E16B49C2600D9B1A7 /* Frameworks */,
@@ -270,9 +282,9 @@
 			);
 			dependencies = (
 			);
-			name = LetME;
+			name = "Google It?";
 			productName = LetME;
-			productReference = 6C446E7116B49C2600D9B1A7 /* LetME.app */;
+			productReference = 6C446E7116B49C2600D9B1A7 /* Google It?.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +297,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Lindsay Rosenfeld ";
 			};
-			buildConfigurationList = 6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "LetME" */;
+			buildConfigurationList = 6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "Google It?" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -297,7 +309,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C446E7016B49C2600D9B1A7 /* LetME */,
+				6C446E7016B49C2600D9B1A7 /* Google It? */,
 			);
 		};
 /* End PBXProject section */
@@ -333,6 +345,10 @@
 				5A9FB9D0170E0CED00F9FD2E /* Googlelogo2.png in Resources */,
 				5A9FB9D2170E0D4100F9FD2E /* Googlelogo3.png in Resources */,
 				5A9FB9D4170E0DAB00F9FD2E /* Googlelogo4.png in Resources */,
+				2223AC4D17125CE60007A941 /* Default-568h@2x.png in Resources */,
+				2223AC4F17125D8F0007A941 /* Default@2x.png in Resources */,
+				2223AC5217125DCE0007A941 /* LoadScreen4.png in Resources */,
+				2223AC5317125DCE0007A941 /* LoadScreen5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,10 +456,10 @@
 				CODE_SIGN_ENTITLEMENTS = LetME/LetME.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Dunn (ZMCQFNQ9FQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
-				INFOPLIST_FILE = "LetME/LetME-Info.plist";
+				GCC_PREFIX_HEADER = "LetME/Google It?-Prefix.pch";
+				INFOPLIST_FILE = "LetME/Google It?-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Google It?";
 				PROVISIONING_PROFILE = "1A64F2A8-7D40-44D9-AB49-F0EA2BFF1D97";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -456,10 +472,10 @@
 				CODE_SIGN_ENTITLEMENTS = LetME/LetME.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Dunn (ZMCQFNQ9FQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
-				INFOPLIST_FILE = "LetME/LetME-Info.plist";
+				GCC_PREFIX_HEADER = "LetME/Google It?-Prefix.pch";
+				INFOPLIST_FILE = "LetME/Google It?-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Google It?";
 				PROVISIONING_PROFILE = "1A64F2A8-7D40-44D9-AB49-F0EA2BFF1D97";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -469,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "LetME" */ = {
+		6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "Google It?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C446E9316B49C2700D9B1A7 /* Debug */,
@@ -478,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "LetME" */ = {
+		6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "Google It?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C446E9616B49C2700D9B1A7 /* Debug */,
