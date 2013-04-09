@@ -115,10 +115,10 @@
 		6C446E7516B49C2600D9B1A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C446E7716B49C2600D9B1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C446E7916B49C2600D9B1A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6C446E7D16B49C2700D9B1A7 /* LetME-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetME-Info.plist"; sourceTree = "<group>"; };
+		6C446E7D16B49C2700D9B1A7 /* LetMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetMe-Info.plist"; sourceTree = "<group>"; };
 		6C446E7F16B49C2700D9B1A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6C446E8116B49C2700D9B1A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C446E8316B49C2700D9B1A7 /* LetME-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetME-Prefix.pch"; sourceTree = "<group>"; };
+		6C446E8316B49C2700D9B1A7 /* LetMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetMe-Prefix.pch"; sourceTree = "<group>"; };
 		6C446E8416B49C2700D9B1A7 /* LMGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMGAppDelegate.h; sourceTree = "<group>"; };
 		6C446E8516B49C2700D9B1A7 /* LMGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMGAppDelegate.m; sourceTree = "<group>"; };
 		6C446E8716B49C2700D9B1A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -256,10 +256,10 @@
 				220EAC7016BB86EA0090A810 /* AFXMLRequestOperation.m */,
 				220EAC7116BB86EA0090A810 /* UIImageView+AFNetworking.h */,
 				220EAC7216BB86EA0090A810 /* UIImageView+AFNetworking.m */,
-				6C446E7D16B49C2700D9B1A7 /* LetME-Info.plist */,
+				6C446E7D16B49C2700D9B1A7 /* LetMe-Info.plist */,
 				6C446E7E16B49C2700D9B1A7 /* InfoPlist.strings */,
 				6C446E8116B49C2700D9B1A7 /* main.m */,
-				6C446E8316B49C2700D9B1A7 /* LetME-Prefix.pch */,
+				6C446E8316B49C2700D9B1A7 /* LetMe-Prefix.pch */,
 				6C446E8716B49C2700D9B1A7 /* Default.png */,
 				6C446E8916B49C2700D9B1A7 /* Default@2x.png */,
 				6C446E8B16B49C2700D9B1A7 /* Default-568h@2x.png */,
@@ -270,9 +270,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C446E7016B49C2600D9B1A7 /* LetME */ = {
+		6C446E7016B49C2600D9B1A7 /* LetMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "LetME" */;
+			buildConfigurationList = 6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "LetMe" */;
 			buildPhases = (
 				6C446E6D16B49C2600D9B1A7 /* Sources */,
 				6C446E6E16B49C2600D9B1A7 /* Frameworks */,
@@ -282,7 +282,7 @@
 			);
 			dependencies = (
 			);
-			name = LetME;
+			name = LetMe;
 			productName = LetME;
 			productReference = 6C446E7116B49C2600D9B1A7 /* Google For You.app */;
 			productType = "com.apple.product-type.application";
@@ -297,7 +297,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Lindsay Rosenfeld ";
 			};
-			buildConfigurationList = 6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "LetME" */;
+			buildConfigurationList = 6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "LetMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -309,7 +309,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C446E7016B49C2600D9B1A7 /* LetME */,
+				6C446E7016B49C2600D9B1A7 /* LetMe */,
 			);
 		};
 /* End PBXProject section */
@@ -449,14 +449,14 @@
 		6C446E9616B49C2700D9B1A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = LetME/LetME.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Dunn (8QQEZJCYYS)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Dunn (TP49W6HFTK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
-				INFOPLIST_FILE = "LetME/LetME-Info.plist";
+				GCC_PREFIX_HEADER = "LetME/LetMe-Prefix.pch";
+				INFOPLIST_FILE = "LetME/LetMe-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "Google For You";
-				PROVISIONING_PROFILE = "896AE24C-EA5B-402F-AD0C-E8F05FCD7DEE";
+				PROVISIONING_PROFILE = "29AAF680-8FB4-49CF-B0AF-52084E1DF67D";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,14 +465,14 @@
 		6C446E9716B49C2700D9B1A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = LetME/LetME.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Dunn (8QQEZJCYYS)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Dunn (TP49W6HFTK)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
-				INFOPLIST_FILE = "LetME/LetME-Info.plist";
+				GCC_PREFIX_HEADER = "LetME/LetMe-Prefix.pch";
+				INFOPLIST_FILE = "LetME/LetMe-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "Google For You";
-				PROVISIONING_PROFILE = "896AE24C-EA5B-402F-AD0C-E8F05FCD7DEE";
+				PROVISIONING_PROFILE = "29AAF680-8FB4-49CF-B0AF-52084E1DF67D";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -481,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "LetME" */ = {
+		6C446E6B16B49C2600D9B1A7 /* Build configuration list for PBXProject "LetMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C446E9316B49C2700D9B1A7 /* Debug */,
@@ -490,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "LetME" */ = {
+		6C446E9516B49C2700D9B1A7 /* Build configuration list for PBXNativeTarget "LetMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C446E9616B49C2700D9B1A7 /* Debug */,
