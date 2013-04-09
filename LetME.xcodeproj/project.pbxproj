@@ -111,7 +111,7 @@
 		5A9FB9D6171260F700F9FD2E /* LoadScreen5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoadScreen5.png; sourceTree = "<group>"; };
 		5A9FB9D91712613700F9FD2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5A9FB9DB1712613B00F9FD2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		6C446E7116B49C2600D9B1A7 /* Google it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C446E7116B49C2600D9B1A7 /* Google For You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google For You.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C446E7516B49C2600D9B1A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C446E7716B49C2600D9B1A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C446E7916B49C2600D9B1A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,7 +172,7 @@
 		6C446E7216B49C2600D9B1A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C446E7116B49C2600D9B1A7 /* Google it.app */,
+				6C446E7116B49C2600D9B1A7 /* Google For You.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,7 +284,7 @@
 			);
 			name = LetME;
 			productName = LetME;
-			productReference = 6C446E7116B49C2600D9B1A7 /* Google it.app */;
+			productReference = 6C446E7116B49C2600D9B1A7 /* Google For You.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -455,7 +455,7 @@
 				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
 				INFOPLIST_FILE = "LetME/LetME-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "Google it";
+				PRODUCT_NAME = "Google For You";
 				PROVISIONING_PROFILE = "29AAF680-8FB4-49CF-B0AF-52084E1DF67D";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -471,7 +471,7 @@
 				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
 				INFOPLIST_FILE = "LetME/LetME-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "Google it";
+				PRODUCT_NAME = "Google For You";
 				PROVISIONING_PROFILE = "29AAF680-8FB4-49CF-B0AF-52084E1DF67D";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
