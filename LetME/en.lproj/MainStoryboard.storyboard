@@ -12,15 +12,12 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="226" translatesAutoresizingMaskIntoConstraints="NO" id="Wbz-Li-kPg">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Wbz-Li-kPg">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="226" id="1fj-hX-R9c"/>
                                     <constraint firstAttribute="height" constant="403" id="KzF-wb-v5B"/>
                                 </constraints>
-                                <string key="text">This app is not affiliated with Google or LMGTFY.com, but we thank them for their services. Additionally, we have used code from Infinite Loop created by Claus Broch to generate the bit.ly links for the app. We thank him and bit.ly for their services. A list of additional sources can be found on our credits page below.
-The LMGTFY logo was created using this Google text generator (http://neswork.com/logo-generator/google-font).
-The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</string>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="14"/>
+                                <string key="text">This app is not affiliated with Google or LMGTFY.com, but we thank them for their services. Additionally, we have used code from Infinite Loop created by Claus Broch to generate the bit.ly links for the app. We thank him and bit.ly for their services. A list of additional sources can be found on our credits page below.</string>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -44,10 +41,11 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</s
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Wbz-Li-kPg" firstAttribute="top" secondItem="ySW-fG-uhy" secondAttribute="top" constant="50" id="3LR-oH-Hcp"/>
+                            <constraint firstItem="Wbz-Li-kPg" firstAttribute="leading" secondItem="ySW-fG-uhy" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3ZK-Qx-1xg"/>
+                            <constraint firstAttribute="trailing" secondItem="Wbz-Li-kPg" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="50V-Kt-Rcz"/>
                             <constraint firstItem="5eP-M3-Go4" firstAttribute="top" secondItem="ySW-fG-uhy" secondAttribute="top" constant="5" id="BRK-d3-G1T"/>
                             <constraint firstItem="5eP-M3-Go4" firstAttribute="leading" secondItem="ySW-fG-uhy" secondAttribute="leading" constant="10" id="N0F-Gq-9TU"/>
-                            <constraint firstItem="Wbz-Li-kPg" firstAttribute="centerX" secondItem="ySW-fG-uhy" secondAttribute="centerX" type="default" id="ffp-Yu-mxt"/>
-                            <constraint firstItem="Wbz-Li-kPg" firstAttribute="top" secondItem="ySW-fG-uhy" secondAttribute="top" constant="58" id="i0b-kT-zy3"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -276,6 +274,6 @@ The app icon was generated usinghttp://www.midnightmobility.com/iphone-icon/.</s
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Ukb-KP-9ep"/>
+        <segue reference="jtU-CC-JgE"/>
     </inferredMetricsTieBreakers>
 </document>

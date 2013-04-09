@@ -21,7 +21,6 @@
 		220EAC7F16BB870E0090A810 /* ILBitly.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC7E16BB870E0090A810 /* ILBitly.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		220EAC8216BB872D0090A810 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EAC8116BB872D0090A810 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2256EE23171268260068C092 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2256EE22171268260068C092 /* iAd.framework */; };
-		227035A41713CAAF00227B56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C446E8B16B49C2700D9B1A7 /* Default-568h@2x.png */; };
 		22A14D30170DE5E30070AB3A /* infobuttonl.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D2F170DE5E30070AB3A /* infobuttonl.png */; };
 		22A14D36170DF0B90070AB3A /* LMGTFYicon_g?.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D35170DF0B90070AB3A /* LMGTFYicon_g?.png */; };
 		22A14D38170DF0F90070AB3A /* LMGTFYicon_g?57.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A14D37170DF0F80070AB3A /* LMGTFYicon_g?57.png */; };
@@ -346,7 +345,6 @@
 				5A9FB9D8171260F700F9FD2E /* LoadScreen5.png in Resources */,
 				5A9FB9DA1712613700F9FD2E /* Default@2x.png in Resources */,
 				5A9FB9DC1712613B00F9FD2E /* Default-568h@2x.png in Resources */,
-				227035A41713CAAF00227B56 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,13 +450,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LetME/LetME.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Dunn (TP49W6HFTK)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Dunn (8QQEZJCYYS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
 				INFOPLIST_FILE = "LetME/LetME-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "Google For You";
-				PROVISIONING_PROFILE = "29AAF680-8FB4-49CF-B0AF-52084E1DF67D";
+				PROVISIONING_PROFILE = "896AE24C-EA5B-402F-AD0C-E8F05FCD7DEE";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,13 +466,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LetME/LetME.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Dunn (TP49W6HFTK)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Dunn (8QQEZJCYYS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LetME/LetME-Prefix.pch";
 				INFOPLIST_FILE = "LetME/LetME-Info.plist";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "Google For You";
-				PROVISIONING_PROFILE = "29AAF680-8FB4-49CF-B0AF-52084E1DF67D";
+				PROVISIONING_PROFILE = "896AE24C-EA5B-402F-AD0C-E8F05FCD7DEE";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
