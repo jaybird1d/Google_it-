@@ -16,7 +16,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="403" id="KzF-wb-v5B"/>
                                 </constraints>
-                                <string key="text">This app is not affiliated with Google or LMGTFY.com, but we thank them for their services. Additionally, we have used code from Infinite Loop created by Claus Broch to generate the bit.ly links for the app. We thank him and bit.ly for their services. A list of additional sources can be found on our credits page below.</string>
+                                <string key="text">This app is not affiliated with Google or LMGTFY.com, but we thank them for their services. Additionally, we have used code from Infinite Loop created by Claus Broch to generate the bit.ly links for the app. We thank him and bit.ly for their services.</string>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -226,34 +226,50 @@
                                     <constraint firstAttribute="height" constant="50" id="ij0-pa-vQ0"/>
                                 </constraints>
                             </adBannerView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="BQ3-X3-Qlx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="189" id="iKQ-gH-mhN"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="LMGTFY"/>
+                                    <segment title="ELGOOG"/>
+                                </segments>
+                                <color key="tintColor" red="0.89411764709999997" green="0.42352941179999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="linktypechanged:" destination="2" eventType="valueChanged" id="HZO-nt-Lr5"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GVb-JK-Rh8" firstAttribute="top" secondItem="45f-el-nNu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0hU-99-8Ld"/>
-                            <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="oZZ-KJ-eq3" secondAttribute="centerX" type="default" id="20d-ca-mva"/>
-                            <constraint firstAttribute="trailing" secondItem="4iK-2a-rm5" secondAttribute="trailing" constant="81" id="3xp-HS-qQG"/>
                             <constraint firstItem="skZ-mG-1b1" firstAttribute="top" secondItem="3" secondAttribute="top" constant="12" id="8NU-l8-yiS"/>
+                            <constraint firstItem="SgB-up-Ync" firstAttribute="leading" secondItem="BQ3-X3-Qlx" secondAttribute="leading" type="default" id="9ez-GR-29A"/>
                             <constraint firstItem="oZZ-KJ-eq3" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Af3-3x-2lR"/>
                             <constraint firstItem="Aij-9N-qIP" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="DAY-Xy-Lfy"/>
-                            <constraint firstItem="4iK-2a-rm5" firstAttribute="top" secondItem="3" secondAttribute="top" constant="260" id="FSd-fp-g4x"/>
                             <constraint firstItem="Aij-9N-qIP" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Gtz-XT-S5M"/>
                             <constraint firstAttribute="trailing" secondItem="GVb-JK-Rh8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Jz9-mf-yot"/>
-                            <constraint firstItem="SgB-up-Ync" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="97" id="O12-cg-FzH"/>
-                            <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="GVb-JK-Rh8" secondAttribute="centerX" type="default" id="QBa-7z-i5j"/>
+                            <constraint firstItem="BQ3-X3-Qlx" firstAttribute="centerX" secondItem="45f-el-nNu" secondAttribute="centerX" type="default" id="KM1-y9-A3J"/>
+                            <constraint firstItem="4iK-2a-rm5" firstAttribute="trailing" secondItem="BQ3-X3-Qlx" secondAttribute="trailing" type="default" id="KYe-zh-N95"/>
+                            <constraint firstItem="GVb-JK-Rh8" firstAttribute="top" secondItem="BQ3-X3-Qlx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="OET-mO-jJ8"/>
                             <constraint firstItem="GVb-JK-Rh8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Si3-7K-WSG"/>
                             <constraint firstItem="skZ-mG-1b1" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="7" id="TFd-3J-05E"/>
+                            <constraint firstItem="SgB-up-Ync" firstAttribute="centerY" secondItem="4iK-2a-rm5" secondAttribute="centerY" type="default" id="Z8i-FD-lp1"/>
                             <constraint firstItem="g7M-mS-gbz" firstAttribute="top" secondItem="GVb-JK-Rh8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="b9q-JH-DM8"/>
                             <constraint firstAttribute="trailing" secondItem="g7M-mS-gbz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="eY3-Jx-FRj"/>
                             <constraint firstItem="g7M-mS-gbz" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="etV-q8-Vgw"/>
                             <constraint firstItem="Aij-9N-qIP" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="fZB-iW-toT"/>
-                            <constraint firstItem="45f-el-nNu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="128" id="sUf-yB-9pL"/>
-                            <constraint firstItem="SgB-up-Ync" firstAttribute="top" secondItem="3" secondAttribute="top" constant="264" id="tif-O8-mIn"/>
+                            <constraint firstItem="45f-el-nNu" firstAttribute="centerX" secondItem="oZZ-KJ-eq3" secondAttribute="centerX" type="default" id="hOj-cr-Hm8"/>
+                            <constraint firstItem="BQ3-X3-Qlx" firstAttribute="centerX" secondItem="GVb-JK-Rh8" secondAttribute="centerX" type="default" id="k1c-xQ-VsU"/>
+                            <constraint firstItem="45f-el-nNu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="77" id="r5F-ag-ydM"/>
+                            <constraint firstItem="4iK-2a-rm5" firstAttribute="top" secondItem="3" secondAttribute="top" constant="250" id="s6F-OF-sk9"/>
+                            <constraint firstItem="BQ3-X3-Qlx" firstAttribute="top" secondItem="45f-el-nNu" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zmq-Sz-s0r"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="basicURL" destination="oZZ-KJ-eq3" id="gfz-q2-QgD"/>
                         <outlet property="bottomAd" destination="Aij-9N-qIP" id="mii-ks-Ud8"/>
                         <outlet property="searchentry" destination="GVb-JK-Rh8" id="dD1-ut-7SY"/>
+                        <outlet property="segmentedController" destination="BQ3-X3-Qlx" id="60E-W2-rvn"/>
                         <outlet property="tinyurlOutput" destination="g7M-mS-gbz" id="mrx-mf-47V"/>
                     </connections>
                 </viewController>
@@ -274,6 +290,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="jtU-CC-JgE"/>
+        <segue reference="Ukb-KP-9ep"/>
     </inferredMetricsTieBreakers>
 </document>

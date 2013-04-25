@@ -29,6 +29,7 @@ NSString *finalLink;
 @synthesize feedbackMsg = _feedbackMsg;
 @synthesize bottomAd = _bottomAd;
 @synthesize bannerIsVisible = _bannerIsVisible;
+@synthesize segmentedController = _segmentedController;
 
 - (void)viewDidLoad {
     _bottomAd = [[ADBannerView alloc] initWithFrame:CGRectZero];
@@ -40,6 +41,11 @@ NSString *finalLink;
     _bottomAd.delegate=self;
     self.bannerIsVisible=NO;
     [super viewDidLoad];
+    
+
+
+    
+    
 }
 
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
@@ -78,6 +84,7 @@ NSString *finalLink;
 }
 
 - (IBAction)enteredsearch:(id)sender {
+    if(_segmentedController.selectedSegmentIndex==0){
     NSString *base = @"http://www.lmgtfy.com/?q=";
     NSString *input = _searchentry.text;
     NSString *escapedInput = (__bridge NSString *)CFURLCreateStringByAddingPercentEscapes(NULL,(CFStringRef)input,
@@ -100,11 +107,37 @@ NSString *finalLink;
         pasteboard.string = self.basicURL.text;
     } error:^(NSError *err) {
         NSLog(@"An error occurred %@", err);
-    }];
+    }];}
+    else {
+        NSString *base = @"http://www.elgoog.im/search/?q=";
+        NSString *input = _searchentry.text;
+        NSString *escapedInput = (__bridge NSString *)CFURLCreateStringByAddingPercentEscapes(NULL,(CFStringRef)input,
+                                                                                              NULL,
+                                                                                              CFSTR("!*'();:@&=+$,/?%#[]"),
+                                                                                              kCFStringEncodingUTF8);
+        //NSString *shortened = shortenerBitly:escapedInput;
+        NSString *link = [NSString stringWithFormat:@"%@%@", base, escapedInput];
+        self.basicURL.text = link;
+        //[self runShortener];
+        
+        
+        ILBitly *bitly = [[ILBitly alloc] initWithLogin:@"jaybird1d" apiKey:@"R_455eab58f9edb8976047bf48c63aa999"];
+        [bitly shorten:link result:^(NSString *shortURLString) {
+            NSLog(@"SHORTENED LINK: %@", shortURLString);
+            finalLink = [[NSString alloc] initWithString:shortURLString];
+            self.basicURL.text = shortURLString;
+            self.tinyurlOutput.text = @"Link is now copied to your clipboard!";
+            UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+            pasteboard.string = self.basicURL.text;
+        } error:^(NSError *err) {
+            NSLog(@"An error occurred %@", err);
+        }];}
     
 }
+
+
 - (IBAction)editingDidStart:(id)sender {
-    self.tinyurlOutput.text = @"Press Return to Generate bit.ly!";
+    self.tinyurlOutput.text = @"Press Return to Generate Link!";
 }
 
 - (IBAction)messageaLink:(id)sender {
@@ -183,4 +216,9 @@ NSString *finalLink;
 }
 
 
+- (IBAction)linktypechanged:(id)sender {
+    [self enteredsearch:(_searchentry)];
+    
+
+}
 @end

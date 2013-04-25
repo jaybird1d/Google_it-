@@ -15,6 +15,8 @@
     ADBannerView *adView;
     BOOL bannerIsVisible;
 }
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedController;
+- (IBAction)linktypechanged:(id)sender;
 
 @property (nonatomic,assign) BOOL bannerIsVisible;
 @property (weak, nonatomic) IBOutlet ADBannerView *bottomAd;
